@@ -6,6 +6,9 @@ html,body,div,span,object,h1,h2,h3,h4,tbody,thead,tr,th,td,footer,header,menu,na
     font:inherit;
     vertical-align:baseline
 }
+@font-face { font-family: 72_Regular; src: url('72-Regular.ttf'); } 
+    @font-face { font-family: 72_Regular; font-weight: bold; src: url('72-Bold.ttf');}
+    @font-face { font-family: 72_Regular; font-weight: italic; src: url('72-Bold.ttf');}
 a{
     text-decoration:none
 }
@@ -22,7 +25,7 @@ table{
 body{
     color:#272727;
     background:#fff;
-    font-family:"Lucida Console", Monaco, monospace;
+    font-family:"72_Regular", 72_Regular, monospace;
     font-size:75%;
     font-weight:400
 }
