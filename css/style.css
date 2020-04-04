@@ -6,9 +6,9 @@ html,body,div,span,object,h1,h2,h3,h4,tbody,thead,tr,th,td,footer,header,menu,na
     font:inherit;
     vertical-align:baseline
 }
-@font-face { font-family: '72_Regular'; src: url('fonts/72_Web/72-Regular.ttf'); } 
-    @font-face { font-family: '72_Regular'; font-weight: bold; src: url('fonts/72_Web/72-Bold.ttf');}
-    @font-face { font-family: '72_Regular'; font-weight: italic; src: url('fonts/72_Web/72-Italic.ttf');}
+@font-face { font-family: RNormal; src: url('fonts/72_Web/72-Regular.ttf'); } 
+    @font-face { font-family: RNormal; font-weight: bold; src: url('fonts/72_Web/72-Bold.ttf');}
+    @font-face { font-family: RNormal; font-weight: italic; src: url('fonts/72_Web/72-Italic.ttf');}
 a{
     text-decoration:none
 }
@@ -25,7 +25,7 @@ table{
 body{
     color:#272727;
     background:#fff;
-    font-family:"72_Regular", 72_Regular;
+    font-family:RNormal;
     font-size:75%;
     font-weight:400
 }
